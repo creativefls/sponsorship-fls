@@ -1,0 +1,85 @@
+.wizard-container{
+    padding-top: 40px;
+}
+.footer{
+    margin-top: 10px;
+}
+.wizard-card .choice{
+    margin-top: 1px !important;
+}
+.img-room{
+    max-width: 50%;
+}
+
+.wizard-card[data-color="orange"] .choice.active .card-checkboxes{
+    /* box-shadow: 0px 12px 17px -7px rgba(0, 0, 0, 0.3); */
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: #ffa500;
+}
+.mati-in{
+    pointer-events: none;
+    cursor: default;
+}
+
+h5{
+    font-weight: bold;
+}
+
+
+hr.hr-lg {
+  border-top-width: 3px;
+  border-top-color: #333333;
+}
+
+hr.hr-xl {
+  border-top-width: 5px;
+  border-top-color: #333333;
+}
+
+.panel{
+    border-radius: .5rem;
+    color: inherit;
+    background-color: #E6E6E6;
+}
+.panel ul{
+    padding-left: 1rem;
+}
+
+
+/*------- color --------*/
+.bg-orange{
+    background-color: #ffa500 !important;
+    border-color:  #ffa500 !important;
+}
+
+/*-----!- color --------*/
+/*----------------------*/
+
+/*mainan layout screen*/
+@media screen and (min-width: 556px){
+    .baris{
+        display: none;
+    }
+    .judul-atas{
+        display: none;
+    }
+}
+@media screen and (min-width: 766px){
+    .judul-kecil{
+        display: none;
+    }
+}
+@media screen and (max-width: 555px){
+    .wizard-navigation{
+        display:none;
+    }
+    .tab-content{
+        margin-top: -10em;
+    }
+}
+
+.
