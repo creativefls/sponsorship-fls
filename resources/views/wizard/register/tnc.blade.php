@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <input type="hidden" value="1" id="sponsorship-types" name="sponsorship-types"/>
+            <input type="hidden" value="1" id="sponsorship-types" name="sponsorship_types"/>
 <!-- ========== </ Radio Button Pilihan Tipe Kerjasama =========== -->
 <!-- ========================================================== -->
 
