@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="card wizard-card" data-color="orange" id="wizardProfile">
-        <form action="formSponsorship" method="post">
+        <form action="/sponsor" method="post">
             {{ csrf_field() }}
             <!--        You can switch " data-color="orange" "  with one of the next bright colors: "blue", "green", "orange", "red", "azure"          -->
 

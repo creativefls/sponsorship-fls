@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'SponsorController@wizardSponsor');
-Route::post('/formSponsorship', 'SponsorController@formSponsorship');
+Route::post('/sponsor', 'SponsorController@formSponsorship');
