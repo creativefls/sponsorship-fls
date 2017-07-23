@@ -7,8 +7,7 @@ use App\Sponsor;
 
 class SponsorController extends Controller
 {
-    public function wizardSponsor()
-    {
+    public function wizardSponsor(){
         return view('wizard.register');
     }
 
