@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Sponsor;
+use App\Mail\Thankyou;
 
 class SponsorController extends Controller
 {
@@ -23,6 +24,8 @@ class SponsorController extends Controller
         $sponsor->explanation       = $request->explanation;
 
         $sponsor->save();
+
+        \Mail::to($sponsor)->send(new Thankyou($sponsor));
 
         return view('wizard.thankyou', ['sponsor' => $sponsor]);
 	}
