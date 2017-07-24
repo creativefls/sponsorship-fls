@@ -34,6 +34,6 @@ class Thankyou extends Mailable
     {
         return $this->view('emails.thankyou')
             ->from('noreplay.futureleadersummit@gmail.com', 'Future Leader Summit 2017')
-            ->subject('Terima Kasih '. $this->sponsor->company_name);
+            ->subject('Follow-up Partnership with FLS 2017 '. $this->sponsor->company_name);
     }
 }
