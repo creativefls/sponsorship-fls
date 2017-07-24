@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Sponsor;
 use App\Mail\Thankyou;
 
@@ -25,7 +26,9 @@ class SponsorController extends Controller
 
         $sponsor->save();
 
-        \Mail::to($sponsor)->send(new Thankyou($sponsor));
+        Mail::to($sponsor)
+            ->bcc('111201408073@mhs.dinus.ac.id')
+            ->send(new Thankyou($sponsor));
 
         return view('wizard.thankyou', ['sponsor' => $sponsor]);
 	}
