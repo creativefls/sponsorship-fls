@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'SponsorController@wizardSponsor');
-Route::post('/sponsor', 'SponsorController@formSponsorship');
+Route::get('/', 'SponsorController@createWizard');
+Route::post('/sponsor', 'SponsorController@store');
