@@ -25,7 +25,7 @@ class SponsorController extends Controller
         $sponsor->save();
 
         Mail::to($sponsor)
-            ->bcc('111201408073@mhs.dinus.ac.id')
+            ->bcc('mailpakgasing@gmail.com')
             ->send(new Thankyou($sponsor));
 
         return view('wizard.thankyou', ['sponsor' => $sponsor]);
