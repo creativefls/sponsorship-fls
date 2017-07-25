@@ -71,9 +71,9 @@ transparent = true;
             $('input[type="text"]').each(function() {
                 $(this).rules('add', {
                     messages: {
-                        required: "Pertanyaan ini wajib diisi..",
+                        required: "Field ini wajib diisi..",
                         minlength: "Data terlalu singkat..",
-                        maxlength: "Data terlalu banyak..",
+                        maxlength: "Data terlalu panjang..",
                         number: "Format nomor tidak sesuai..",
                         url: "Format URL tidak sesuai..",
                         date: "Format tanggal tidak sesuai.."
@@ -84,7 +84,7 @@ transparent = true;
             $('input[type="email"]').each(function() {
                 $(this).rules('add', {
                     messages: {
-                        required: "Pertanyaan ini wajib diisi..",
+                        required: "Field ini wajib diisi..",
                         email: "Format Email tidak sesuai..",
                     }
                 })
@@ -93,7 +93,7 @@ transparent = true;
             $('textarea').each(function() {
                 $(this).rules('add', {
                     messages: {
-                        required: "Pertanyaan ini wajib diisi..",
+                        required: "Field ini wajib diisi..",
                         minlength: "Data terlalu singkat.."
                     }
                 })
