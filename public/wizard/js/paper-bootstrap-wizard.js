@@ -28,51 +28,37 @@ transparent = true;
         		rules: {
                     //BIODATA VALIDATION
 
-        		    nama: {
+        		    company: {
         		      required: true,
         		      minlength: 3
         		    },
-                    tempat_lahir: {
+                    pic: {
                         required: true,
                         minlength:3
                     },
-                    tanggal_lahir: {
-                      required:true,
-                      date:true,
-                      minlength:10
-                    },
-                    alamat: {
-                        required: true,
-                        minlength: 15
-                    },
-                    provinsi:{
-                        psikotest: true
-                    },
-                    kabupaten:{
-                        psikotest: true
-                    },
-        		    lastname: {
-        		      required: true,
-        		      minlength: 3
-        		    },
-                    hp: {
+                    phone: {
                         required: true,
                         number: true,
                         rangelength: [8, 14]
                     },
-                    ig: {
-                        required: true
+                    email: {
+                        required: true,
+                        customemail:true
                     },
-        		    email: {
-        		      required: true,
-                      customemail:true
-        		    },
+                    address: {
+                        required: true,
+                        minlength: 15
+                    },
+                    explanation: {
+                        required: true,
+                        minlength: 15
+                    },
                     //END OF BIODATA VALIDATION
                 },
         	});
 
              //addMethod for validation SELECT Option
-             jQuery.validator.addMethod('psikotest', function (value) {
+             jQuery.validator.addMethod('pilihan-wajib', function (value) {
                     return (value != '0');
                 }, "Pilih Jawaban Kamu..");
 
