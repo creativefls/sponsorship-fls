@@ -13,3 +13,7 @@
 
 Route::get('/', 'SponsorController@createWizard');
 Route::post('/sponsor', 'SponsorController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
