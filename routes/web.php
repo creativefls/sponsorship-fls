@@ -1,19 +1,14 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
+//Wizard Sponsor Submit
 Route::get('/', 'SponsorController@createWizard');
 Route::post('/sponsor', 'SponsorController@store');
+Route::get('/home', 'HomeController@index')->name('home');
 
+//Route auth bawaan artisan make auth
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Admin Dashboard
+Route::middleware(['auth'])->prefix('admin')->group(function (){
+    Route::get('/', 'DashboardController@show');// Matches The "/admin" URL
+});
