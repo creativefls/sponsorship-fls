@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
+use Carbon\Carbon;
+
 class CreateUsersTable extends Migration
 {
     /**
@@ -21,6 +23,16 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        //insert default user
+        $current_time = Carbon::now();
+        DB::table('users')->insert([
+            'name' => 'admin bawaan default',
+            'email' => 'admin@admin.com',
+            'password' => bcrypt('admin'),
+            'created_at' => $current_time,
+            'updated_at' => $current_time,
+        ]);
     }
 
     /**
