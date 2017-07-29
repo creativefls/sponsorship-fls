@@ -10,5 +10,5 @@ Auth::routes();
 
 //Admin Dashboard
 Route::middleware(['auth'])->prefix('admin')->group(function (){
-    Route::get('/', 'DashboardController@show');// Matches The "/admin" URL
+    Route::get('/', 'DashboardController@show')->name('dashboard');// Matches The "/admin" URL
 });
