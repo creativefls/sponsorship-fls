@@ -31,7 +31,7 @@ class SponsorController extends Controller
         return view('wizard.thankyou', ['sponsor' => $sponsor]);
 	}
 
-    public function index(Request $request){
+    public function index(){
         $sponsors = Sponsor::all();
 
         return view('admin.sponsor-table', compact('sponsors', 'request'));

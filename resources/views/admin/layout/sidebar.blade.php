@@ -7,21 +7,13 @@
         </div>
 
         <ul class="nav">
-            @if ($request->is('*admin'))
-                <li class="active">
-            @else
-                <li>
-            @endif
+            <li class="{{ Route::currentRouteName() == "dashboard" ? "active" : "" }}">
                 <a href="{{ route('dashboard') }}">
                     <i class="ti-panel"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
-            @if ($request->is('*/sponsor-list'))
-                <li class="active">
-            @else
-                <li>
-            @endif
+            <li class="{{ Route::currentRouteName() == "sponsor-list" ? "active" : "" }}">
                 <a href="{{ route('sponsor-list') }}">
                     <i class="ti-view-list-alt"></i>
                     <p>Tabel Sponsorship</p>
