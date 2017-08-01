@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    function show(){
-        return view('admin.dashboard');
+    function show(Request $request){
+        return view('admin.dashboard' ,compact('request'));
     }
 }
