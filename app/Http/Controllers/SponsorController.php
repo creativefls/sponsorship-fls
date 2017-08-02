@@ -32,7 +32,7 @@ class SponsorController extends Controller
 	}
 
     public function index(){
-        $sponsors = Sponsor::all();
+        $sponsors = Sponsor::orderBy('created_at', 'desc')->get();
 
         return view('admin.sponsor-table', compact('sponsors'));
     }

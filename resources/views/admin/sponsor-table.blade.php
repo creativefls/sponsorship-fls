@@ -5,8 +5,8 @@
         <div class="col-md-12">
             <div class="card card-plain">
                 <div class="header">
-                    <h4 class="title">Table on Plain Background</h4>
-                    <p class="category">Here is a subtitle for this table</p>
+                    <h4 class="title">Tabel Sponsorship</h4>
+                    <p class="category">Future Leader Summit 2017</p>
                 </div>
                 <div class="content table-responsive table-full-width">
                     <table class="table table-hover">
@@ -26,7 +26,7 @@
                             @foreach ($sponsors as $sponsor)
                                 <tr>
                                     <td>{{ ++$i }}</td>
-                                    <td>{{ $sponsor->type_sponsorship }}</td>
+                                    <td>{{ $sponsor->getType() }}</td>
                                     <td>{{ $sponsor->company_name }}</td>
                                     <td>{{ $sponsor->pic }}</td>
                                     <td>{{ $sponsor->phone }}</td>
