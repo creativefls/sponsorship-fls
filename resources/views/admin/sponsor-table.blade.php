@@ -34,14 +34,6 @@
                                                 <td>{{ $sponsor->created_at->diffForHumans() }}</td>
                                             </tr>
                                         @endforeach
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Dakota Rice</td>
-                                            <td>$36,738</td>
-                                            <td>Niger</td>
-                                            <td>Oud-Turnhout</td>
-                                            <td>$36,738</td>
-                                        </tr>
                                     </tbody>
                                 </table>
 
