@@ -14,7 +14,7 @@
                         <div class="col-xs-7">
                             <div class="numbers">
                                 <p>Total</p>
-                                {{ $all_sponsors }}
+                                {{ $sponsors->countAll() }}
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                         <div class="col-xs-7">
                             <div class="numbers">
                                 <p>Fresh Money</p>
-                                {{ $fresh_money_sponsors }}
+                                {{ $sponsors->countFreshMoney() }}
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                         <div class="col-xs-7">
                             <div class="numbers">
                                 <p>In-Kind</p>
-                                {{ $in_kind_sponsors }}
+                                {{ $sponsors->countInKind() }}
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                         <div class="col-xs-7">
                             <div class="numbers">
                                 <p>Media Partner</p>
-                                {{ $medpar_sponsors }}
+                                {{ $sponsors->countMediaPartner() }}
                             </div>
                         </div>
                     </div>
