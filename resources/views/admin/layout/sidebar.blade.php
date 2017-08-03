@@ -13,15 +13,15 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            <li class="{{ Route::currentRouteName() == "sponsor-list" ? "active" : "" }}">
-                <a href="{{ route('sponsor-list') }}">
+            <li class="{{ Route::currentRouteName() == "sponsor.index" ? "active" : "" }}">
+                <a href="{{ route('sponsor.index') }}">
                     <i class="ti-view-list-alt"></i>
                     <p>Tabel Sponsorship</p>
                 </a>
             </li>
             @if (Auth::user()->role == 0)
                 <li class="active-pro">
-                    <a href="{{ route('user-list') }}">
+                    <a href="{{ route('user.index') }}">
                         <p>Pengguna</p>
                     </a>
                 </li>
