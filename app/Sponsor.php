@@ -13,6 +13,8 @@ class Sponsor extends Model
             return "In-Kind";
         }else if ($this->type_sponsorship == 3) {
             return "Media Partner";
+        }else {
+            return "Undefined Sponsor";
         }
     }
 

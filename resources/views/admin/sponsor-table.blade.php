@@ -20,9 +20,7 @@
                         	<th>Mendaftar Pada</th>
                         </thead>
                         <tbody>
-                            @php
-                                $i = 0;
-                            @endphp
+                            @php $i = 0; @endphp
                             @foreach ($sponsors as $sponsor)
                                 <tr>
                                     <td>{{ ++$i }}</td>
