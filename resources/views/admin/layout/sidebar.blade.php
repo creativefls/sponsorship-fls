@@ -19,12 +19,14 @@
                     <p>Tabel Sponsorship</p>
                 </a>
             </li>
-            <li class="active-pro">
-                <a href="upgrade.html">
-                    <i class="ti-export"></i>
-                    <p>Upgrade to PRO</p>
-                </a>
-            </li>
+            @if (Auth::user()->role == 0)
+                <li class="active-pro">
+                    <a href="{{ route('user-list') }}">
+                        <p>Pengguna</p>
+                    </a>
+                </li>
+
+            @endif
         </ul>
     </div>
 </div>
