@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('role')->default(1);
             $table->rememberToken();
             $table->timestamps();
         });
@@ -30,6 +31,7 @@ class CreateUsersTable extends Migration
             'name' => 'admin bawaan default',
             'email' => 'admin@admin.com',
             'password' => bcrypt('admin'),
+            'role' => 0,
             'created_at' => $current_time,
             'updated_at' => $current_time,
         ]);

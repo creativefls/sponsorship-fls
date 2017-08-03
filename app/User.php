@@ -26,4 +26,14 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function getRole(){
+        if ($this->role == 0) {
+            return "Mimin";
+        }else if($this->role == 1){
+            return "Marketing";
+        }else {
+            return "Undefined User";
+        }
+    }
 }
