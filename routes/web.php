@@ -11,6 +11,10 @@ Auth::routes();
 //Admin Dashboard
 Route::middleware(['auth'])->prefix('admin')->group(function (){
     Route::get('/', 'DashboardController@show')->name('dashboard');// Matches The "/admin" URL
-    Route::get('/sponsor-list', 'SponsorController@index')->name('sponsor-list');
-    Route::get('/user-list', 'UserController@index')->name('user-list');
+    Route::get('sponsor-list', 'SponsorController@index')->name('sponsor-list');
+});
+
+// bagian dashboard khusus super admin
+Route::middleware(['superadmin'])->prefix('admin')->group(function (){
+    Route::resource('user', 'UserController');
 });
