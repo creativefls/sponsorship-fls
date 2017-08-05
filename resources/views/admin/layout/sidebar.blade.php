@@ -21,11 +21,10 @@
             </li>
             @if (Auth::user()->role == 0)
                 <li class="active-pro">
-                    <a href="{{ route('user.index') }}">
+                    <a href="{{ route('users.index') }}">
                         <p>Pengguna</p>
                     </a>
                 </li>
-
             @endif
         </ul>
     </div>
