@@ -39,7 +39,6 @@
 
         @include('admin.layout.nav')
 
-
         <div class="content">
             <div class="container-fluid">
 
@@ -51,6 +50,9 @@
         @include('admin.layout.footer')
 
     </div>
+
+    @yield('modal')
+
 </div>
 
 
@@ -83,10 +85,11 @@
 
         	demo.initChartist();
 
-        	// $.notify({
-            // 	icon: 'ti-gift',
-            // 	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
-
+        @if (session('message'))
+        	$.notify({
+            	icon: 'ti-gift',
+            	message: "{{ session('message') }}"
+        @endif
             },{
                 type: 'success',
                 timer: 4000

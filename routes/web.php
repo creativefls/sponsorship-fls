@@ -16,5 +16,5 @@ Route::middleware(['auth'])->prefix('admin')->group(function (){
 
 // bagian dashboard khusus super admin
 Route::middleware(['superadmin'])->prefix('admin')->group(function (){
-    Route::resource('user', 'UserController');
+    Route::resource('users', 'UserController');
 });
