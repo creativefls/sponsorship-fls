@@ -15,13 +15,13 @@ class SponsorController extends Controller
 
     function store(Request $request){
         $sponsor = new Sponsor();
-        $sponsor->type_sponsorship  = request('sponsorship_types');
-        $sponsor->company_name      = request('company');
-        $sponsor->pic               = request('pic');
-        $sponsor->phone             = request('phone');
-        $sponsor->email             = request('email');
-        $sponsor->address           = request('address');
-        $sponsor->explanation       = request('explanation');
+        $sponsor->type_sponsorship  = $request['sponsorship_types'];
+        $sponsor->company_name      = $request['company'];
+        $sponsor->pic               = $request['pic'];
+        $sponsor->phone             = $request['phone'];
+        $sponsor->email             = $request['email'];
+        $sponsor->address           = $request['address'];
+        $sponsor->explanation       = $request['explanation'];
         $sponsor->save();
 
         Mail::to($sponsor)
