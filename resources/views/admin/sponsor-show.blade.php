@@ -2,7 +2,26 @@
 
 @section('content')
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-xs-3 text-right">
+                            {{-- <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn> --}}
+                        </div>
+                        <div class="col-xs-6">
+                            {{ $sponsor->getType() }}
+                            <br />
+                            <span class="text-success"><small>type sponsor</small></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
             <div class="card">
                 <div class="header text-center">
                     <h4 class="title">{{ $sponsor->company_name }}</h4>
@@ -44,23 +63,6 @@
                 </div>
             </div>
 
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="content">
-                    <div class="row">
-                        <div class="col-xs-3 text-right">
-                            {{-- <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn> --}}
-                        </div>
-                        <div class="col-xs-6">
-                            {{ $sponsor->getType() }}
-                            <br />
-                            <span class="text-success"><small>type sponsor</small></span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 @endsection
