@@ -18,12 +18,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer">
+                    {{-- <div class="footer">
                         <hr />
                         <div class="stats">
                             <i class="ti-reload"></i> Updated now
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -43,12 +43,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer">
+                    {{-- <div class="footer">
                         <hr />
                         <div class="stats">
                             <i class="ti-calendar"></i> Last day
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -68,12 +68,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer">
+                    {{-- <div class="footer">
                         <hr />
                         <div class="stats">
                             <i class="ti-timer"></i> In the last hour
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -93,12 +93,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer">
+                    {{-- <div class="footer">
                         <hr />
                         <div class="stats">
                             <i class="ti-reload"></i> Updated now
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
