@@ -11,7 +11,8 @@ Auth::routes();
 //Admin Dashboard
 Route::middleware(['auth'])->prefix('admin')->group(function (){
     Route::get('/', 'DashboardController@show')->name('dashboard');// Matches The "/admin" URL
-    Route::get('sponsor', 'SponsorController@index')->name('sponsor.index');
+    Route::get('sponsors', 'SponsorController@index')->name('sponsors.index');
+    Route::get('sponsors/{id}', 'SponsorController@show')->name('sponsors.show');
 });
 
 // bagian dashboard khusus super admin

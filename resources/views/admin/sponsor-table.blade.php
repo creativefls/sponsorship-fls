@@ -15,21 +15,21 @@
                             <th>Type</th>
                         	<th>Company</th>
                         	<th>PIC</th>
-                        	<th>Phone</th>
                         	<th>Email</th>
                         	<th>Mendaftar Pada</th>
                         </thead>
                         <tbody>
-                            @php $i = 0; @endphp
                             @foreach ($sponsors as $sponsor)
                                 <tr>
-                                    <td>{{ ++$i }}</td>
+                                    <td>{{ $sponsor->id }}</td>
                                     <td>{{ $sponsor->getType() }}</td>
                                     <td>{{ $sponsor->company_name }}</td>
                                     <td>{{ $sponsor->pic }}</td>
-                                    <td>{{ $sponsor->phone }}</td>
                                     <td>{{ $sponsor->email }}</td>
                                     <td>{{ $sponsor->created_at->diffForHumans() }}</td>
+                                    <td>
+                                        <a href="{{ route('sponsors.show', $sponsor->id) }}" class="btn btn-info">Lihat Lebih Lengkap</a>
+                                    </td>
                                 </tr>
                             @endforeach
                         </tbody>
