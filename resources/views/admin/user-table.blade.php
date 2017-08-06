@@ -30,7 +30,14 @@
                                     <td>{{ $user->email }}</td>
                                     <td>{{ $user->getRole() }}</td>
                                     <td>{{ $user->created_at->diffForHumans() }}</td>
-                                    <td class="text-center"><a href="/admin/users/{{ $user->id }}" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-flat"><i class="fa fa-user-times"></i> Hapus</a></td>
+                                    <td>
+                                        {!! Form::open([
+                                           'method' => 'DELETE',
+                                           'route' => ['users.destroy', $user->id]
+                                       ]) !!}
+                                           {!! Form::submit('Delete', ['class' => 'btn btn-danger', 'onclick' => 'return confirm("Yakin menghapus?")']) !!}
+                                       {!! Form::close() !!}
+                                    </td>
                                 </tr>
                             @endforeach
                         </tbody>
