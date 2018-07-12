@@ -2,7 +2,7 @@
     <div class="sidebar-wrapper">
         <div class="logo">
             <a href="http://www.creative-tim.com" class="simple-text">
-                Marketing FLS 2017
+                Marketing FLS 2018
             </a>
         </div>
 

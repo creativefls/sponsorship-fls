@@ -9,9 +9,9 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-    <meta name="author" content="Future Leader Summit 2017">
-    <meta name="keyword" content="fls, future leader summit, fls 2017, 2017, delegates 2017, calon delegates, delegates fls, nusantara muda, fls blog, fls artikel">
-    <meta name="description" content="Ayo daftar menjadi delegates Future Leader Summit 2017 untuk membawa perubahan nyata bagi Indonesia !">
+    <meta name="author" content="Future Leader Summit 2018">
+    <meta name="keyword" content="fls, future leader summit, fls 2018, 2018, delegates 2018, calon delegates, delegates fls, nusantara muda, fls blog, fls artikel">
+    <meta name="description" content="Ayo daftar menjadi delegates Future Leader Summit 2018 untuk membawa perubahan nyata bagi Indonesia !">
 
     <meta content='#252422' name='theme-color'/>
     <meta content='Indonesia' name='geo.placename'/>

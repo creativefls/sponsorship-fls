@@ -9,7 +9,7 @@
                 <ol>
                     <li>
                         Involvement <br>
-                        Tiket untuk menghadiri Future Leader Summit 2017 tersedia agar Anda lebih dekat dengan puluhan sponsor, media partner lainnya  serta 240 delegates dari seluruh Indonesia!
+                        Tiket untuk menghadiri Future Leader Summit 2018 tersedia agar Anda lebih dekat dengan puluhan sponsor, media partner lainnya  serta 240 delegates dari seluruh Indonesia!
                     </li>
                     <li>
                         Branding opportunities <br>
@@ -21,7 +21,7 @@
                     </li>
                     <li>
                         Brand Exposure <br>
-                        Kesempatan untuk meningkatkan brand exposure kepada 240 delegates dari seluruh Indonesia, serta berbagai media yang dimiliki oleh Future Leader Summit 2017, baik media sosial maupun media partner.
+                        Kesempatan untuk meningkatkan brand exposure kepada 240 delegates dari seluruh Indonesia, serta berbagai media yang dimiliki oleh Future Leader Summit 2018, baik media sosial maupun media partner.
                     </li>
                 </ol>
             </section>
@@ -31,7 +31,7 @@
                 <ol>
                     <li>
                         Involvement <br>
-                        Tiket untuk menghadiri Future Leader Summit 2017 tersedia agar Anda lebih dekat dengan puluhan sponsor, media partner lainnya serta 240 delegates dari seluruh Indonesia!
+                        Tiket untuk menghadiri Future Leader Summit 2018 tersedia agar Anda lebih dekat dengan puluhan sponsor, media partner lainnya serta 240 delegates dari seluruh Indonesia!
                     </li>
                     <li>
                         Branding opportunities <br>
@@ -43,7 +43,7 @@
                     </li>
                     <li>
                         Brand Exposure <br>
-                        Kesempatan untuk meningkatkan brand exposure kepada 240 delegates dari seluruh Indonesia, serta berbagai media yang dimiliki oleh Future Leader Summit 2017, baik media sosial maupun media partner.
+                        Kesempatan untuk meningkatkan brand exposure kepada 240 delegates dari seluruh Indonesia, serta berbagai media yang dimiliki oleh Future Leader Summit 2018, baik media sosial maupun media partner.
                     </li>
                 </ol>
             </section>

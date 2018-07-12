@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Terima Kasih telah mendaftar Future Leader Summit 2017</title>
+    <title>Terima Kasih telah mendaftar Future Leader Summit 2018</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
@@ -220,7 +220,7 @@
                     <td height="15" style="font-size:1px; line-height:1px;">&nbsp;</td>
                   </tr>
                   <tr>
-                    <td align="center" style="font-family:'Open Sans', Arial, sans-serif; font-size:17px; font-weight:bold; line-height:20px; color:#30373b;">Selamat {{ $sponsor->company_name }} , anda berhasil menjadi bagian Future Leader Summit 2017!</td>
+                    <td align="center" style="font-family:'Open Sans', Arial, sans-serif; font-size:17px; font-weight:bold; line-height:20px; color:#30373b;">Selamat {{ $sponsor->company_name }} , anda berhasil menjadi bagian Future Leader Summit 2018!</td>
                   </tr>
                    <tr>
                     <td height="15" style="font-size:1px; line-height:1px;">&nbsp;</td>
@@ -249,9 +249,9 @@
                     <td height="10" class="em_height">&nbsp;</td>
                   </tr>
                       <td align="left" style="font-family:'Open Sans', Arial, sans-serif; font-size:14px; line-height:22px; color:#30373b;">
-                        Terimakasih telah mendaftarkan <b>{{ $sponsor->company_name }}</b> menjadi bagian perubahan menuju Indonesia yang lebih baik melalui Future Leader Summit 2017!
+                        Terimakasih telah mendaftarkan <b>{{ $sponsor->company_name }}</b> menjadi bagian perubahan menuju Indonesia yang lebih baik melalui Future Leader Summit 2018!
                         <br><br>
-                        Untuk perencanaan kerjasama dengan FLS 2017, kami ingin menjadwalkan pertemuan bersama perwakilan <b>{{ $sponsor->company_name }}</b> terkait tipe dan keuntungan dalam kerjasama ini. Oleh sebab itu, silakan konfirmasi waktu dan tempat yang Anda inginkan dengan membalas sms dari salah satu manager marketing kami.
+                        Untuk perencanaan kerjasama dengan FLS 2018, kami ingin menjadwalkan pertemuan bersama perwakilan <b>{{ $sponsor->company_name }}</b> terkait tipe dan keuntungan dalam kerjasama ini. Oleh sebab itu, silakan konfirmasi waktu dan tempat yang Anda inginkan dengan membalas sms dari salah satu manager marketing kami.
                         <br><br>
                         Ps. Jika Anda belum menerima sms <i>follow-up</i> dari kami, Anda bisa langsung menghubungi kami di kontak yang tertera di <i>signature email</i> di bawah ini atau dengan membalas email ini.
                         <br><br>
@@ -259,7 +259,7 @@
                         <br><br><br><br>
                         Salam hangat,
                         <br><br><br>
-                        Future Leader Summit 2017
+                        Future Leader Summit 2018
 
                         </td>
                         </td>
@@ -313,7 +313,7 @@
             </tr>
             <tr>
               <td align="center" style="font-family:'Open Sans', Arial, sans-serif; font-size:12px; line-height:18px; color:#848789;text-transform:uppercase;">
-                Created by  <span style="text-decoration:underline;"><a href="https://indrakusuma.web.id" target="_blank" style="text-decoration:underline; color:#848789;">Creative &amp; IT FLS 2017</a></span>
+                Created by  <span style="text-decoration:underline;"><a href="https://indrakusuma.web.id" target="_blank" style="text-decoration:underline; color:#848789;">Creative &amp; IT FLS 2018</a></span>
               </td>
             </tr>
             <tr>

@@ -33,7 +33,7 @@ class Thankyou extends Mailable
     public function build()
     {
         return $this->view('emails.thankyou')
-            ->from('noreplay.futureleadersummit@gmail.com', 'Future Leader Summit 2017')
-            ->subject('Follow-up Partnership with FLS 2017 '. $this->sponsor->company_name);
+            ->from('ayana@futureleadersummit.org', 'Ayana dari Marketing Future Leader Summit')
+            ->subject('Follow-up Partnership with FLS 2018 '. $this->sponsor->company_name);
     }
 }

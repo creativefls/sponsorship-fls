@@ -2,11 +2,11 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <img class="img-responsive center-block" src="/img/sponsorship/tnc.png" alt="">
-            <h4 class="text-center">Syarat dan Ketentuan (Terms and Conditions) Kerjasama FLS 2017</h4>
+            <h4 class="text-center">Syarat dan Ketentuan (Terms and Conditions) Kerjasama FLS 2018</h4>
             <hr class="hr-lg">
             <section>
                 <p class="text-justify">
-                    Terima kasih atas perhatian Anda untuk menjalin kerjasama dengan Future Leader Summit 2017. Dengan mengisi format pendaftaran kerjasama sponsorship yang telah disediakan pada tahap akhir proses ini, berarti Anda telah menyetujui Syarat dan Ketentuan dibawah sebagai pra-nota kesepahaman yang berguna untuk melindungi <strong>Future Leader Summit 2017 sebagai pihak pertama, Sponsor sebagai pihak kedua</strong> dan semua yang terlibat nantinya akan dirinci setelah menjadwalkan pertemuan terkait kerjasama ini.
+                    Terima kasih atas perhatian Anda untuk menjalin kerjasama dengan Future Leader Summit 2018. Dengan mengisi format pendaftaran kerjasama sponsorship yang telah disediakan pada tahap akhir proses ini, berarti Anda telah menyetujui Syarat dan Ketentuan dibawah sebagai pra-nota kesepahaman yang berguna untuk melindungi <strong>Future Leader Summit 2018 sebagai pihak pertama, Sponsor sebagai pihak kedua</strong> dan semua yang terlibat nantinya akan dirinci setelah menjadwalkan pertemuan terkait kerjasama ini.
                 </p>
                 <p>
                     Pra-nota kesepahaman ini berlaku sejak Anda menyetujui syarat dan ketentuan yang berlaku dengan cara menekan Saya Setuju pada kolom berwarna (warna) dibawah.
@@ -54,7 +54,7 @@
                 </div>
                 <ul>
                     <li>Pihak pertama dan kedua berkewajiban untuk memenuhi janji temu yang telah disepakati setelah <em>follow-up</em> dari pihak pertama terkait kesepahaman kerjasama <em>sponsorship</em></li>
-                    <li>Pihak kedua berhak menerima laporan penggunaan sesuai  jumlah anggaran yang akan diberikan setelah mengetahui rincian anggaran yang dibutuhkan selama pelaksanaan rangkaian Future Leader Summit 2017</li>
+                    <li>Pihak kedua berhak menerima laporan penggunaan sesuai  jumlah anggaran yang akan diberikan setelah mengetahui rincian anggaran yang dibutuhkan selama pelaksanaan rangkaian Future Leader Summit 2018</li>
                     <li>Pihak kedua berhak menerima berbagai keuntungan dengan tenggat waktu dan besaran yang telah disepakati oleh kedua pihak sesuai anggaran yang telah dibayarkan </li>
                 </ul>
             </section>
@@ -63,12 +63,12 @@
                 <h5>Kerjasama untuk tipe <em>In-Kind</em></h5>
                 <div class="rounded panel panel-default bg-primary">
                     <div class="panel-body">
-                        Tipe kerjasama ini dapat berupa barter penuh atau semi-barter. Barang dapat berupa keperluan logistic delegates selama rangkaian acara Future Leader Summit 2017
+                        Tipe kerjasama ini dapat berupa barter penuh atau semi-barter. Barang dapat berupa keperluan logistic delegates selama rangkaian acara Future Leader Summit 2018
                     </div>
                 </div>
                 <ul>
                     <li>Pihak pertama dan kedua berkewajiban untuk memenuhi janji temu yang telah disepakati setelah <em>follow-up</em> dari pihak pertama terkait kesepahaman kerjasama <em>sponsorship</em></li>
-                    <li>Pihak kedua berhak menerima laporan penggunaan sesuai  jumlah anggaran dan barang (untuk semi-barter) dan atau jumlah barang (untuk barter penuh) yang akan diberikan setelah mengetahui rincian anggaran dan logistik yang dibutuhkan selama pelaksanaan rangkaian Future Leader Summit 2017</li>
+                    <li>Pihak kedua berhak menerima laporan penggunaan sesuai  jumlah anggaran dan barang (untuk semi-barter) dan atau jumlah barang (untuk barter penuh) yang akan diberikan setelah mengetahui rincian anggaran dan logistik yang dibutuhkan selama pelaksanaan rangkaian Future Leader Summit 2018</li>
                     <li>Pihak kedua berhak menerima berbagai keuntungan dengan tenggat waktu dan besaran yang telah disepakati oleh kedua pihak sesuai jumlah anggaran dan barang (untuk semi-barter) dan atau jumlah barang (untuk barter penuh) yang telah dibayarkan </li>
                 </ul>
             </section>
@@ -77,7 +77,7 @@
                 <h5>Kerjasama untuk media partner</h5>
                 <div class="rounded panel panel-default bg-primary">
                     <div class="panel-body">
-                        Dengan berkolaborasi menjadi Media Partner Future Leader Summit 2017, kamu telah berkontribusi untuk perubahan menuju Indonesia yang lebih baik melalui publikasi atas hebatnya semangat pemuda seluruh Indonesia dalam mewujudkan ide dan gagasan mereka!
+                        Dengan berkolaborasi menjadi Media Partner Future Leader Summit 2018, kamu telah berkontribusi untuk perubahan menuju Indonesia yang lebih baik melalui publikasi atas hebatnya semangat pemuda seluruh Indonesia dalam mewujudkan ide dan gagasan mereka!
                     </div>
                 </div>
                 <ul>
@@ -110,7 +110,7 @@
                             <ul style="list-style-type:circle">
                                 <li>Pihak pertama dan kedua dilarang menyebarkan informasi yang tidak benar dan atau pemalsuan data.</li>
                                 <li>Pihak pertama dan kedua dilarang menyalahi aturan tertulis dalam syarat dan ketentuan pada halaman ini dan nota kesepahaman nantinya.</li>
-                                <li>Pihak kedua dilarang melakukan tindakan apa pun yang dapat menganggu dan atau membatasi jalannya acara Future Leader Summit 2017; atau melakukan tindakan yang bertentangan dengan hukum dan kesusilaan yang berlaku di Indonesia.</li>
+                                <li>Pihak kedua dilarang melakukan tindakan apa pun yang dapat menganggu dan atau membatasi jalannya acara Future Leader Summit 2018; atau melakukan tindakan yang bertentangan dengan hukum dan kesusilaan yang berlaku di Indonesia.</li>
                             </ul>
                         </div> <!-- panel-body -->
                     </div> <!-- panel -->

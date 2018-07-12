@@ -4,7 +4,7 @@
     <div class="card wizard-card" data-color="red" id="wizardProfile">
         <div class="wizard-header text-center">
             <h3 class="wizard-title">Terima Kasih</h3>
-            <!-- <p class="category">Future Leader Summit 2017</p> -->
+            <!-- <p class="category">Future Leader Summit 2018</p> -->
             <hr>
         </div>
         <div class="row container-fluid">
@@ -15,14 +15,14 @@
             </div>
             <div class="col-sm-5 col-sm-offset-1">
                 <div class="form-group">
-                    <label>Selamat <em>{{ $sponsor->company_name }}</em>, Anda berhasil menjadi bagian Future Leader Summit 2017!</label>
+                    <label>Selamat <em>{{ $sponsor->company_name }}</em>, Anda berhasil menjadi bagian Future Leader Summit 2018!</label>
                     <br><br>
                     <p>
                         Terimakasih telah mendaftar dengan <em>{{ $sponsor->email }}</em>. Selanjutnya kami akan menghubungi melalui email. Silakan tunggu.
                     </p>
                     <br>
                     <p>
-                        Jadi bagian perubahan menuju Indonesia yang lebih baik melalui Future Leader Summit 2017!
+                        Jadi bagian perubahan menuju Indonesia yang lebih baik melalui Future Leader Summit 2018!
                     </p>
                 </div>
             </div>

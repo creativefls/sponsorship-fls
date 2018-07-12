@@ -6,7 +6,7 @@
             <div class="card card-plain">
                 <div class="header">
                     <h4 class="title">Tabel Sponsorship</h4>
-                    <p class="category">Future Leader Summit 2017</p>
+                    <p class="category">Future Leader Summit 2018</p>
                 </div>
                 <div class="content table-responsive table-full-width">
                     <table class="table table-hover">
