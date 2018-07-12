@@ -25,12 +25,11 @@ class SponsorController extends Controller
         $sponsor->save();
 
         Mail::to($sponsor)
-            ->bcc('badriilham@gmail.com')
-            ->bcc('mailpakgasing@gmail.com')
+            ->bcc(['mailpakgasing@gmail.com', 'badriilham@gmail.com'])
             ->send(new Thankyou($sponsor));
 
-        // return view('wizard.thankyou', ['sponsor' => $sponsor]);
-        dd($sponsor);
+        // dd($sponsor);
+        return view('wizard.thankyou', ['sponsor' => $sponsor]);
 	}
 
     public function index(){

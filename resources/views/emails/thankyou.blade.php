@@ -214,9 +214,6 @@
                     <td height="10" class="em_height">&nbsp;</td>
                   </tr>
                   <tr>
-                    <td valign="middle" align="center"><img src="https://2.bp.blogspot.com/-lKaWFaSVB90/WQ6A9NcYDEI/AAAAAAAAFig/vbTe2lI1stEXbjF0X-yeQzsZZe0XSToWwCLcB/s1600/icon-fls-2.png" alt="GOOD NEWS" style="display:block; font-family:Arial, sans-serif; font-size:25px; line-height:42px; color:#c27cbb;max-width:50%;" class="em_full_img" border="0" /></td>
-                  </tr>
-                  <tr>
                     <td height="15" style="font-size:1px; line-height:1px;">&nbsp;</td>
                   </tr>
                   <tr>
@@ -313,7 +310,7 @@
             </tr>
             <tr>
               <td align="center" style="font-family:'Open Sans', Arial, sans-serif; font-size:12px; line-height:18px; color:#848789;text-transform:uppercase;">
-                Created by  <span style="text-decoration:underline;"><a href="https://indrakusuma.web.id" target="_blank" style="text-decoration:underline; color:#848789;">Creative &amp; IT FLS 2018</a></span>
+                Created by  <span style="text-decoration:underline;"><a href="https://github.com/creativefls" target="_blank" style="text-decoration:underline; color:#848789;">Creative &amp; IT FLS 2018</a></span>
               </td>
             </tr>
             <tr>

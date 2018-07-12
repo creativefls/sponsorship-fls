@@ -10,7 +10,7 @@
         <div class="row container-fluid">
             <div class="col-sm-5">
                 <p class="description" align="right">
-                    <img src="https://user-images.githubusercontent.com/10141928/27992993-bce8de68-64ca-11e7-86d8-50a489d6b744.png" class="img-responsive center-block"/>
+                    <img src="https://futureleadersummit.org/images/tagline.png" class="img-responsive center-block"/>
                 </p>
             </div>
             <div class="col-sm-5 col-sm-offset-1">
