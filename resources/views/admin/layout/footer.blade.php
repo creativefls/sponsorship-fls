@@ -15,7 +15,7 @@
             </ul>
         </nav>
         <div class="copyright pull-right">
-            &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://wkwk.web.id">wkwk creative</a>
+            &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="https://github.com/creativefls">Creative FLS</a>
         </div>
     </div>
 </footer>

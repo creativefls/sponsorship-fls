@@ -82,7 +82,7 @@
 
         <div class="footer">
             <div class="container text-center">
-                Made with <i class="ti-heart heart"></i> by <a href="http://www.indrakusuma.web.id" title="Indra Kusuma (@id.indrakusuma) & M. Arji (@wkwksama)">Creative & IT Future Leader Summit 2017</a> | <a href="">Informasi</a>
+                &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="ti-heart heart"></i> by <a href="https://github.com/creativefls">Creative FLS</a>
             </div>
         </div>
     </div>
